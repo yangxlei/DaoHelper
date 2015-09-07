@@ -1,0 +1,34 @@
+{
+  "name": "DaoHelper",
+  "version": "0.1.0",
+  "summary": "An ORM Framework like GreenDao for iOS.",
+  "description": "",
+  "homepage": "https://github.com/yangxlei/DaoHelper",
+  "license": "MIT",
+  "authors": {
+    "yanglei": "jxyl9010@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/yangxlei/DaoHelper.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "6.1"
+  },
+  "requires_arc": true,
+  "source_files": "core/**/*",
+  "resource_bundles": {
+    "DaoHelper": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "public_header_files": "core/**/*.h",
+  "dependencies": {
+    "FMDB": [
+
+    ],
+    "LKDBHelper": [
+
+    ]
+  }
+}

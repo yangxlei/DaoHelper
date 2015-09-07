@@ -1,0 +1,1052 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0370CB3DB3DDE69BE5FB900E0FD8C430 /* Pods-DaoHelper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 967C523D483AD752FF052A6A7E738924 /* Pods-DaoHelper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BC6FF0FE2E5B501A98A579623AEB2D9 /* NSObject+LKModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8285CC1352C59850A45ABEC0E62AC81F /* NSObject+LKModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0BEFDC3DE4DD9DFAD46BD830B2946E84 /* Pods-DaoHelper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92A9B6EBAF19524E0E67B2BABB10E6B8 /* Pods-DaoHelper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D21DF52726D97003564C5EA734D8150 /* LKDBUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E03A87ADC10181890D92A9C3859459B /* LKDBUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F3976362F5096DFC73B05831F791242 /* LKDB+Mapping.h in Headers */ = {isa = PBXBuildFile; fileRef = E25E9C3CD4D986F6DA9CC829B9EAC045 /* LKDB+Mapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25440137F6FC3E7CD9457CFE01EDDE16 /* NSObject+LKModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CACC486532DFC56B494D1EB56448D9 /* NSObject+LKModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		254A173F5EC447A9F4A10ECA0347486D /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CA528B6F1CB27CE8635575F9C8BA611 /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AF214FEDAA4240643CC0401565BB47E /* LKDBHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70ADCCAD58B9C1B873C1726AA7A1A4B9 /* LKDBHelper-dummy.m */; };
+		41A828DA17D58317C9A6629AE95F3916 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E6ACA2BE13F4E6AB39FA6301244E69 /* Foundation.framework */; };
+		464121AFE7C702F051674C71D567E5B0 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 59CEF6DDA93FBABD896FCB4FF4F3CA55 /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F0B2ACD00086ECFD2286E2E99A8B045 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = D89CEFF0C854D56751DADEC65E0A4DBB /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4F45529B1DDB8EE53EA1D8965A0611CF /* LKDB+Mapping.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F502DD1CB06A471CC586588EFEA80C /* LKDB+Mapping.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		50D7A1C86F5401FFB37B557D985A661D /* FMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACB004011F87BC6DBE7DEEAFE78E5AFC /* FMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59066A8BF27DB20EA34542DB7FF26EEB /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 407126A9663CA989257499CA7C8AFAD9 /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59897C9A086BE02BCBD3D443B7A91870 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7A7123CD99AE4205CC5F4E9EC79273 /* FMDB-dummy.m */; };
+		5CAF250DDDE28F4EAFFC8FB992022917 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E6ACA2BE13F4E6AB39FA6301244E69 /* Foundation.framework */; };
+		5E043CAC361FAF213E0F496070B133A6 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 722361961D1B33ACCB6CEAEEAA2D6492 /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F2202D9ACE1BDAD331A1D8F239C437E /* LKDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BADA36E337B19F6938028A90C0C33F3D /* LKDBHelper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6662E305F31CDD0A724EC804B2C6C115 /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F23B1B03B084F2A9A7A9E33FBB9380 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		732E958549690278259185FB1B7D3C3A /* LKDBUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5CE2FA0EDA006FAB21C85CA60BB995 /* LKDBUtils.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7522F0993FE5D5C3779328E3BA566292 /* Pods-DaoHelper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E4723D4547050D7AD6C21ADFE38BDE5 /* Pods-DaoHelper_Tests-dummy.m */; };
+		809D50E0C3BB103AB2C5BCE11A569E49 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E9B308736EC44D6B729E5C091D918CE /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		930BD8E1EB73CC21367703549EAAD712 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = CC469AAF10DBF399132B62D6733C64CF /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		974A1C52BC134A419D8649F1DCDE5218 /* NSObject+LKDBHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = D893058B3E99AA5089B048475F30B8DA /* NSObject+LKDBHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8C63E8EC70DE82B2321515CCEFD3537 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E6ACA2BE13F4E6AB39FA6301244E69 /* Foundation.framework */; };
+		AA7208A035ED6A09B598FE0F869D1FAE /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E926C1AE345594766A947F47CB0B8E7E /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B521AA65CC5C2ECEFCF2C45309960B44 /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B89FA2F5F81A6CF4044EC507F42B55 /* FMDB.framework */; };
+		B5E90845A8D4C8AE1E9228459E258BFA /* LKDBHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = B9C0DDD2C34341B03E2D21225A7EB4AF /* LKDBHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C74142E121BA9F9BBBA1A9C3780AD654 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 76128D926431A13675858723A7A8E2C7 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E025D414970DED34D1247542D3CEFBA6 /* Pods-DaoHelper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 482DE60A4330E09852F58489AC63CF06 /* Pods-DaoHelper_Example-dummy.m */; };
+		E09B48464145CB82D60E5B640A5EF4D5 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C2E0A39B84BACBEC16130D3A9A1788 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E2FA4156F2AEB6F2FB22AA9DF52A9326 /* NSObject+LKDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F95ECE123B2AC55DBDD55E5179CFA0 /* NSObject+LKDBHelper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F06D490267025793D678BDB0A485D058 /* LKDBHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5B404AC0DE3B29B4179F61CE3D3E72 /* LKDBHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0B66B4DA106F152DB5DA8E21CC5D8B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E6ACA2BE13F4E6AB39FA6301244E69 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48C968B12176DCEE68DA7A4622E7325B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C5572934652EE54B8ED7E9669844C7C;
+			remoteInfo = "DaoHelper-DaoHelper";
+		};
+		4D1C3A50E5E3C6B1E9FD28A2BDAF59E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D5312F8931E84B85943340251A4FCE8;
+			remoteInfo = FMDB;
+		};
+		8ACC1434C5E4D8F1962CA4D63F6FF338 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D5312F8931E84B85943340251A4FCE8;
+			remoteInfo = FMDB;
+		};
+		8C383ECCCE125A88199F4F2CF9E3B0E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C5572934652EE54B8ED7E9669844C7C;
+			remoteInfo = "DaoHelper-DaoHelper";
+		};
+		C4EB25F352D944686AC4C47673B0DDAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D22CBC6E5BC5E425D81F013BCD19F37;
+			remoteInfo = LKDBHelper;
+		};
+		D9A5A9CE328C88F84DFC7234F4C76752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D22CBC6E5BC5E425D81F013BCD19F37;
+			remoteInfo = LKDBHelper;
+		};
+		F7FC64673F64CD0109EFC93123D82536 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D5312F8931E84B85943340251A4FCE8;
+			remoteInfo = FMDB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0490B6D377B0CA377EAD62455D5AA6D2 /* Pods-DaoHelper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DaoHelper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0E03A87ADC10181890D92A9C3859459B /* LKDBUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKDBUtils.h; path = LKDBHelper/Helper/LKDBUtils.h; sourceTree = "<group>"; };
+		0E5CE2FA0EDA006FAB21C85CA60BB995 /* LKDBUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKDBUtils.m; path = LKDBHelper/Helper/LKDBUtils.m; sourceTree = "<group>"; };
+		106E2139B6290DE214F0B3BE20ABC6E5 /* Pods-DaoHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DaoHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		119383B2ED00566BDA640FF674A8F677 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		136504A63576ADB410730642C10F6126 /* Pods-DaoHelper_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DaoHelper_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		18C9CC9C2A3FBD96891E0110B161F1C3 /* Pods-DaoHelper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DaoHelper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		21F23B1B03B084F2A9A7A9E33FBB9380 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		2C7A7123CD99AE4205CC5F4E9EC79273 /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
+		33C2E0A39B84BACBEC16130D3A9A1788 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		4053185BEDA584F214D7E555BC2A35A7 /* Pods-DaoHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DaoHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		407126A9663CA989257499CA7C8AFAD9 /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		41303228DB6762B812C078245D4CC853 /* LKDBHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LKDBHelper.xcconfig; sourceTree = "<group>"; };
+		44723348C3A9635C70B18BB3BEC60C74 /* Pods_DaoHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DaoHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		482DE60A4330E09852F58489AC63CF06 /* Pods-DaoHelper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DaoHelper_Example-dummy.m"; sourceTree = "<group>"; };
+		4FD3FA901D7B7F0CD6E32417B0DA28B0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50E6ACA2BE13F4E6AB39FA6301244E69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		543096EFE6172D65714CE44009DD02EF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59CEF6DDA93FBABD896FCB4FF4F3CA55 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		5A7BE55A9B34CCE70D964E6CA4FB2353 /* Pods-DaoHelper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DaoHelper_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5C5B404AC0DE3B29B4179F61CE3D3E72 /* LKDBHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LKDBHelper-umbrella.h"; sourceTree = "<group>"; };
+		5FD062CC98F6C72FBC79F3DE4FCD98B9 /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
+		6E9B308736EC44D6B729E5C091D918CE /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		7049F5AB15051C4F1F108B9F6D21E1BF /* Pods-DaoHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DaoHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		70ADCCAD58B9C1B873C1726AA7A1A4B9 /* LKDBHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LKDBHelper-dummy.m"; sourceTree = "<group>"; };
+		71673526FF0AD691847C3AC51380C8A0 /* LKDBHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LKDBHelper-prefix.pch"; sourceTree = "<group>"; };
+		722361961D1B33ACCB6CEAEEAA2D6492 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		74A571553C5030F40F4F9048078541F9 /* FMDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FMDB.modulemap; sourceTree = "<group>"; };
+		76128D926431A13675858723A7A8E2C7 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		76F3A838985F43AB33FC75FCCBACD80D /* Pods-DaoHelper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DaoHelper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7E4F23E4244E8029B3C4691DA5723290 /* LKDBHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LKDBHelper.modulemap; sourceTree = "<group>"; };
+		8285CC1352C59850A45ABEC0E62AC81F /* NSObject+LKModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+LKModel.m"; path = "LKDBHelper/Helper/NSObject+LKModel.m"; sourceTree = "<group>"; };
+		82CACC486532DFC56B494D1EB56448D9 /* NSObject+LKModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+LKModel.h"; path = "LKDBHelper/Helper/NSObject+LKModel.h"; sourceTree = "<group>"; };
+		84F95ECE123B2AC55DBDD55E5179CFA0 /* NSObject+LKDBHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+LKDBHelper.m"; path = "LKDBHelper/Helper/NSObject+LKDBHelper.m"; sourceTree = "<group>"; };
+		895CC21FDFE74BA209274889706B7CE5 /* Pods-DaoHelper_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DaoHelper_Example-resources.sh"; sourceTree = "<group>"; };
+		92A9B6EBAF19524E0E67B2BABB10E6B8 /* Pods-DaoHelper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DaoHelper_Tests-umbrella.h"; sourceTree = "<group>"; };
+		942BDB11B03FAC04788317ABA5B05B4E /* Pods-DaoHelper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DaoHelper_Tests.modulemap"; sourceTree = "<group>"; };
+		967C523D483AD752FF052A6A7E738924 /* Pods-DaoHelper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DaoHelper_Example-umbrella.h"; sourceTree = "<group>"; };
+		982E00EC605B9833D33EE9C1F923DFA2 /* FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
+		9CA528B6F1CB27CE8635575F9C8BA611 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		9E4723D4547050D7AD6C21ADFE38BDE5 /* Pods-DaoHelper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DaoHelper_Tests-dummy.m"; sourceTree = "<group>"; };
+		ACB004011F87BC6DBE7DEEAFE78E5AFC /* FMDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-umbrella.h"; sourceTree = "<group>"; };
+		B9C0DDD2C34341B03E2D21225A7EB4AF /* LKDBHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKDBHelper.h; path = LKDBHelper/Helper/LKDBHelper.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BADA36E337B19F6938028A90C0C33F3D /* LKDBHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKDBHelper.m; path = LKDBHelper/Helper/LKDBHelper.m; sourceTree = "<group>"; };
+		C1BBECD380245998DF07C80EDA0C572A /* Pods-DaoHelper_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DaoHelper_Tests-resources.sh"; sourceTree = "<group>"; };
+		C72792B1E2E741C38DD48121023812AD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8F502DD1CB06A471CC586588EFEA80C /* LKDB+Mapping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LKDB+Mapping.m"; path = "LKDBHelper/Helper/LKDB+Mapping.m"; sourceTree = "<group>"; };
+		CBAC77D4909EAEBD85CE5C0A0DBC9803 /* LKDBHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LKDBHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC469AAF10DBF399132B62D6733C64CF /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		CF52D859F5560C2550AD687BF38EC671 /* Pods_DaoHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DaoHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2B89FA2F5F81A6CF4044EC507F42B55 /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D893058B3E99AA5089B048475F30B8DA /* NSObject+LKDBHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+LKDBHelper.h"; path = "LKDBHelper/Helper/NSObject+LKDBHelper.h"; sourceTree = "<group>"; };
+		D89CEFF0C854D56751DADEC65E0A4DBB /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		DC82346E150D48F0A5073CA2B1B723A4 /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25E9C3CD4D986F6DA9CC829B9EAC045 /* LKDB+Mapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LKDB+Mapping.h"; path = "LKDBHelper/Helper/LKDB+Mapping.h"; sourceTree = "<group>"; };
+		E926C1AE345594766A947F47CB0B8E7E /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		EA85B0BD6C7E5C559FD16A43748BBD89 /* DaoHelper.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaoHelper.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEAD4EEB7CD707C3BD51ACFBAB50FAB7 /* Pods-DaoHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DaoHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EF6BE036F15E4B06F94A787743115A2A /* Pods-DaoHelper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DaoHelper_Example.modulemap"; sourceTree = "<group>"; };
+		F524D40DEBA8F277F8EC8713BE9919C2 /* FMDB-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FMDB-Private.xcconfig"; sourceTree = "<group>"; };
+		F61BB2274BC07251A2F926A81B958102 /* Pods-DaoHelper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DaoHelper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FBACFEC4948203A3C7D7FFFB7B56D5F5 /* LKDBHelper-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LKDBHelper-Private.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56185D9D3A8874E6C38AEE0011DD782F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CAF250DDDE28F4EAFFC8FB992022917 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655241FB413071D72AC007DDD1DD34D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A828DA17D58317C9A6629AE95F3916 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B01A000B9FCD8ADB2A956E3139DEA02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC259254CDF991BCF78830790C5C4EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C63E8EC70DE82B2321515CCEFD3537 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE4A818ADA9C03AFCA5BA14020CE28B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B521AA65CC5C2ECEFCF2C45309960B44 /* FMDB.framework in Frameworks */,
+				F0B66B4DA106F152DB5DA8E21CC5D8B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		035785E72A571B586954741966F5532C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				543096EFE6172D65714CE44009DD02EF /* Info.plist */,
+				7E4F23E4244E8029B3C4691DA5723290 /* LKDBHelper.modulemap */,
+				41303228DB6762B812C078245D4CC853 /* LKDBHelper.xcconfig */,
+				FBACFEC4948203A3C7D7FFFB7B56D5F5 /* LKDBHelper-Private.xcconfig */,
+				70ADCCAD58B9C1B873C1726AA7A1A4B9 /* LKDBHelper-dummy.m */,
+				71673526FF0AD691847C3AC51380C8A0 /* LKDBHelper-prefix.pch */,
+				5C5B404AC0DE3B29B4179F61CE3D3E72 /* LKDBHelper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LKDBHelper";
+			sourceTree = "<group>";
+		};
+		10349CBBA829D9AA2DAAA394553917C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F574C40977865262BA6E3DA1993F6E5A /* FMDB */,
+				C1DBE8834F374608F3FEE801CD5145FB /* LKDBHelper */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4F8D08B8CF00B0F809448753571C8D35 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4E66B3888074F6C81887672ABFC0C33 /* Pods-DaoHelper_Example */,
+				EC2CE1FF9AFF8C8EE9BF3C6538366DF7 /* Pods-DaoHelper_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		50024B7F44DDA1D9374D65618E1076B2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				74A571553C5030F40F4F9048078541F9 /* FMDB.modulemap */,
+				982E00EC605B9833D33EE9C1F923DFA2 /* FMDB.xcconfig */,
+				F524D40DEBA8F277F8EC8713BE9919C2 /* FMDB-Private.xcconfig */,
+				2C7A7123CD99AE4205CC5F4E9EC79273 /* FMDB-dummy.m */,
+				5FD062CC98F6C72FBC79F3DE4FCD98B9 /* FMDB-prefix.pch */,
+				ACB004011F87BC6DBE7DEEAFE78E5AFC /* FMDB-umbrella.h */,
+				4FD3FA901D7B7F0CD6E32417B0DA28B0 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FMDB";
+			sourceTree = "<group>";
+		};
+		5AF657613CE262691B4A06112FAD9F4F /* common */ = {
+			isa = PBXGroup;
+			children = (
+				21F23B1B03B084F2A9A7A9E33FBB9380 /* FMDB.h */,
+				9CA528B6F1CB27CE8635575F9C8BA611 /* FMDatabase.h */,
+				D89CEFF0C854D56751DADEC65E0A4DBB /* FMDatabase.m */,
+				59CEF6DDA93FBABD896FCB4FF4F3CA55 /* FMDatabaseAdditions.h */,
+				E926C1AE345594766A947F47CB0B8E7E /* FMDatabaseAdditions.m */,
+				407126A9663CA989257499CA7C8AFAD9 /* FMDatabasePool.h */,
+				CC469AAF10DBF399132B62D6733C64CF /* FMDatabasePool.m */,
+				6E9B308736EC44D6B729E5C091D918CE /* FMDatabaseQueue.h */,
+				33C2E0A39B84BACBEC16130D3A9A1788 /* FMDatabaseQueue.m */,
+				722361961D1B33ACCB6CEAEEAA2D6492 /* FMResultSet.h */,
+				76128D926431A13675858723A7A8E2C7 /* FMResultSet.m */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		71BF4C3B4E41CA4D0B665CC5C5FDB91A /* DaoHelper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DaoHelper;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				966322A225D8C8A0BD5B53CD6FE0A132 /* Development Pods */,
+				D2304513832E75413DFDFE967D300314 /* Frameworks */,
+				10349CBBA829D9AA2DAAA394553917C0 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				4F8D08B8CF00B0F809448753571C8D35 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		966322A225D8C8A0BD5B53CD6FE0A132 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71BF4C3B4E41CA4D0B665CC5C5FDB91A /* DaoHelper */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A5C97C447C6BEBDFAD0DA0957F082AF8 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				50E6ACA2BE13F4E6AB39FA6301244E69 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C1DBE8834F374608F3FEE801CD5145FB /* LKDBHelper */ = {
+			isa = PBXGroup;
+			children = (
+				E25E9C3CD4D986F6DA9CC829B9EAC045 /* LKDB+Mapping.h */,
+				C8F502DD1CB06A471CC586588EFEA80C /* LKDB+Mapping.m */,
+				B9C0DDD2C34341B03E2D21225A7EB4AF /* LKDBHelper.h */,
+				BADA36E337B19F6938028A90C0C33F3D /* LKDBHelper.m */,
+				0E03A87ADC10181890D92A9C3859459B /* LKDBUtils.h */,
+				0E5CE2FA0EDA006FAB21C85CA60BB995 /* LKDBUtils.m */,
+				D893058B3E99AA5089B048475F30B8DA /* NSObject+LKDBHelper.h */,
+				84F95ECE123B2AC55DBDD55E5179CFA0 /* NSObject+LKDBHelper.m */,
+				82CACC486532DFC56B494D1EB56448D9 /* NSObject+LKModel.h */,
+				8285CC1352C59850A45ABEC0E62AC81F /* NSObject+LKModel.m */,
+				035785E72A571B586954741966F5532C /* Support Files */,
+			);
+			path = LKDBHelper;
+			sourceTree = "<group>";
+		};
+		C4E66B3888074F6C81887672ABFC0C33 /* Pods-DaoHelper_Example */ = {
+			isa = PBXGroup;
+			children = (
+				119383B2ED00566BDA640FF674A8F677 /* Info.plist */,
+				EF6BE036F15E4B06F94A787743115A2A /* Pods-DaoHelper_Example.modulemap */,
+				76F3A838985F43AB33FC75FCCBACD80D /* Pods-DaoHelper_Example-acknowledgements.markdown */,
+				0490B6D377B0CA377EAD62455D5AA6D2 /* Pods-DaoHelper_Example-acknowledgements.plist */,
+				482DE60A4330E09852F58489AC63CF06 /* Pods-DaoHelper_Example-dummy.m */,
+				5A7BE55A9B34CCE70D964E6CA4FB2353 /* Pods-DaoHelper_Example-frameworks.sh */,
+				895CC21FDFE74BA209274889706B7CE5 /* Pods-DaoHelper_Example-resources.sh */,
+				967C523D483AD752FF052A6A7E738924 /* Pods-DaoHelper_Example-umbrella.h */,
+				7049F5AB15051C4F1F108B9F6D21E1BF /* Pods-DaoHelper_Example.debug.xcconfig */,
+				EEAD4EEB7CD707C3BD51ACFBAB50FAB7 /* Pods-DaoHelper_Example.release.xcconfig */,
+			);
+			name = "Pods-DaoHelper_Example";
+			path = "Target Support Files/Pods-DaoHelper_Example";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA85B0BD6C7E5C559FD16A43748BBD89 /* DaoHelper.bundle */,
+				DC82346E150D48F0A5073CA2B1B723A4 /* FMDB.framework */,
+				CBAC77D4909EAEBD85CE5C0A0DBC9803 /* LKDBHelper.framework */,
+				44723348C3A9635C70B18BB3BEC60C74 /* Pods_DaoHelper_Example.framework */,
+				CF52D859F5560C2550AD687BF38EC671 /* Pods_DaoHelper_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2304513832E75413DFDFE967D300314 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2B89FA2F5F81A6CF4044EC507F42B55 /* FMDB.framework */,
+				A5C97C447C6BEBDFAD0DA0957F082AF8 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC2CE1FF9AFF8C8EE9BF3C6538366DF7 /* Pods-DaoHelper_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C72792B1E2E741C38DD48121023812AD /* Info.plist */,
+				942BDB11B03FAC04788317ABA5B05B4E /* Pods-DaoHelper_Tests.modulemap */,
+				F61BB2274BC07251A2F926A81B958102 /* Pods-DaoHelper_Tests-acknowledgements.markdown */,
+				18C9CC9C2A3FBD96891E0110B161F1C3 /* Pods-DaoHelper_Tests-acknowledgements.plist */,
+				9E4723D4547050D7AD6C21ADFE38BDE5 /* Pods-DaoHelper_Tests-dummy.m */,
+				136504A63576ADB410730642C10F6126 /* Pods-DaoHelper_Tests-frameworks.sh */,
+				C1BBECD380245998DF07C80EDA0C572A /* Pods-DaoHelper_Tests-resources.sh */,
+				92A9B6EBAF19524E0E67B2BABB10E6B8 /* Pods-DaoHelper_Tests-umbrella.h */,
+				106E2139B6290DE214F0B3BE20ABC6E5 /* Pods-DaoHelper_Tests.debug.xcconfig */,
+				4053185BEDA584F214D7E555BC2A35A7 /* Pods-DaoHelper_Tests.release.xcconfig */,
+			);
+			name = "Pods-DaoHelper_Tests";
+			path = "Target Support Files/Pods-DaoHelper_Tests";
+			sourceTree = "<group>";
+		};
+		F574C40977865262BA6E3DA1993F6E5A /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				50024B7F44DDA1D9374D65618E1076B2 /* Support Files */,
+				5AF657613CE262691B4A06112FAD9F4F /* common */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1DF2C7B6F49FA3612102D19DCE809925 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BEFDC3DE4DD9DFAD46BD830B2946E84 /* Pods-DaoHelper_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		234A56CB85D1EADAF21545C74FF049CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0370CB3DB3DDE69BE5FB900E0FD8C430 /* Pods-DaoHelper_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94FE275DD918450B2F07D876BA2DBD8A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D7A1C86F5401FFB37B557D985A661D /* FMDB-umbrella.h in Headers */,
+				6662E305F31CDD0A724EC804B2C6C115 /* FMDB.h in Headers */,
+				254A173F5EC447A9F4A10ECA0347486D /* FMDatabase.h in Headers */,
+				464121AFE7C702F051674C71D567E5B0 /* FMDatabaseAdditions.h in Headers */,
+				59066A8BF27DB20EA34542DB7FF26EEB /* FMDatabasePool.h in Headers */,
+				809D50E0C3BB103AB2C5BCE11A569E49 /* FMDatabaseQueue.h in Headers */,
+				5E043CAC361FAF213E0F496070B133A6 /* FMResultSet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3E90A951FD379C28795EBDCA3660B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F3976362F5096DFC73B05831F791242 /* LKDB+Mapping.h in Headers */,
+				F06D490267025793D678BDB0A485D058 /* LKDBHelper-umbrella.h in Headers */,
+				B5E90845A8D4C8AE1E9228459E258BFA /* LKDBHelper.h in Headers */,
+				0D21DF52726D97003564C5EA734D8150 /* LKDBUtils.h in Headers */,
+				974A1C52BC134A419D8649F1DCDE5218 /* NSObject+LKDBHelper.h in Headers */,
+				25440137F6FC3E7CD9457CFE01EDDE16 /* NSObject+LKModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		292E5028D6FC2B1B928367E16A4D5A37 /* Pods-DaoHelper_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD0695342BC324325EFFCEB248F29EBC /* Build configuration list for PBXNativeTarget "Pods-DaoHelper_Tests" */;
+			buildPhases = (
+				480C0396507EA40DC22CEEAAFDD81A48 /* Sources */,
+				655241FB413071D72AC007DDD1DD34D3 /* Frameworks */,
+				1DF2C7B6F49FA3612102D19DCE809925 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E3978CA2A49DE0B81EB844276252CDE /* PBXTargetDependency */,
+				863D6DD99BD89A38B48E3E2C024B03AD /* PBXTargetDependency */,
+				DC188EADAD401CC7CE11C1F50E60BF0C /* PBXTargetDependency */,
+			);
+			name = "Pods-DaoHelper_Tests";
+			productName = "Pods-DaoHelper_Tests";
+			productReference = CF52D859F5560C2550AD687BF38EC671 /* Pods_DaoHelper_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3D22CBC6E5BC5E425D81F013BCD19F37 /* LKDBHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0634563818B9297A7A1B8C0FA8A872F7 /* Build configuration list for PBXNativeTarget "LKDBHelper" */;
+			buildPhases = (
+				BD58AF2BA2AD7DDF0B10BEDCE0896874 /* Sources */,
+				EFE4A818ADA9C03AFCA5BA14020CE28B /* Frameworks */,
+				FC3E90A951FD379C28795EBDCA3660B6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				484C2B10220A4EC4FAC93EB9998FC529 /* PBXTargetDependency */,
+			);
+			name = LKDBHelper;
+			productName = LKDBHelper;
+			productReference = CBAC77D4909EAEBD85CE5C0A0DBC9803 /* LKDBHelper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		51DD5F5F7D1337B317AA5A1C44EF6725 /* Pods-DaoHelper_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0761E3F16F20DC9CEDB27B179D1E4BF9 /* Build configuration list for PBXNativeTarget "Pods-DaoHelper_Example" */;
+			buildPhases = (
+				B9861AAB9DA6410A8EBAD11581F58BEE /* Sources */,
+				8EC259254CDF991BCF78830790C5C4EF /* Frameworks */,
+				234A56CB85D1EADAF21545C74FF049CC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82D3474624146132AD71601090BD5357 /* PBXTargetDependency */,
+				64ACED29C7C18E84AD12B338D6ACC6E3 /* PBXTargetDependency */,
+				A22E5B06B6514FE62B543E274A77C5FB /* PBXTargetDependency */,
+			);
+			name = "Pods-DaoHelper_Example";
+			productName = "Pods-DaoHelper_Example";
+			productReference = 44723348C3A9635C70B18BB3BEC60C74 /* Pods_DaoHelper_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5C5572934652EE54B8ED7E9669844C7C /* DaoHelper-DaoHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF06D99DDAC6433C5E663DCD246626F8 /* Build configuration list for PBXNativeTarget "DaoHelper-DaoHelper" */;
+			buildPhases = (
+				18A40082F4FE9E1BEFC3DF08A0822CBC /* Sources */,
+				7B01A000B9FCD8ADB2A956E3139DEA02 /* Frameworks */,
+				1AD1A560D5139E78CBE18199162C6335 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DaoHelper-DaoHelper";
+			productName = "DaoHelper-DaoHelper";
+			productReference = EA85B0BD6C7E5C559FD16A43748BBD89 /* DaoHelper.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8D5312F8931E84B85943340251A4FCE8 /* FMDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61D03FF4655D0B6AA594C026BB56B845 /* Build configuration list for PBXNativeTarget "FMDB" */;
+			buildPhases = (
+				E19278D0A74536630FCC2BEF3A9B2044 /* Sources */,
+				56185D9D3A8874E6C38AEE0011DD782F /* Frameworks */,
+				94FE275DD918450B2F07D876BA2DBD8A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMDB;
+			productName = FMDB;
+			productReference = DC82346E150D48F0A5073CA2B1B723A4 /* FMDB.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C5572934652EE54B8ED7E9669844C7C /* DaoHelper-DaoHelper */,
+				8D5312F8931E84B85943340251A4FCE8 /* FMDB */,
+				3D22CBC6E5BC5E425D81F013BCD19F37 /* LKDBHelper */,
+				51DD5F5F7D1337B317AA5A1C44EF6725 /* Pods-DaoHelper_Example */,
+				292E5028D6FC2B1B928367E16A4D5A37 /* Pods-DaoHelper_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AD1A560D5139E78CBE18199162C6335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A40082F4FE9E1BEFC3DF08A0822CBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480C0396507EA40DC22CEEAAFDD81A48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7522F0993FE5D5C3779328E3BA566292 /* Pods-DaoHelper_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9861AAB9DA6410A8EBAD11581F58BEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E025D414970DED34D1247542D3CEFBA6 /* Pods-DaoHelper_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD58AF2BA2AD7DDF0B10BEDCE0896874 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F45529B1DDB8EE53EA1D8965A0611CF /* LKDB+Mapping.m in Sources */,
+				2AF214FEDAA4240643CC0401565BB47E /* LKDBHelper-dummy.m in Sources */,
+				5F2202D9ACE1BDAD331A1D8F239C437E /* LKDBHelper.m in Sources */,
+				732E958549690278259185FB1B7D3C3A /* LKDBUtils.m in Sources */,
+				E2FA4156F2AEB6F2FB22AA9DF52A9326 /* NSObject+LKDBHelper.m in Sources */,
+				0BC6FF0FE2E5B501A98A579623AEB2D9 /* NSObject+LKModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19278D0A74536630FCC2BEF3A9B2044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59897C9A086BE02BCBD3D443B7A91870 /* FMDB-dummy.m in Sources */,
+				4F0B2ACD00086ECFD2286E2E99A8B045 /* FMDatabase.m in Sources */,
+				AA7208A035ED6A09B598FE0F869D1FAE /* FMDatabaseAdditions.m in Sources */,
+				930BD8E1EB73CC21367703549EAAD712 /* FMDatabasePool.m in Sources */,
+				E09B48464145CB82D60E5B640A5EF4D5 /* FMDatabaseQueue.m in Sources */,
+				C74142E121BA9F9BBBA1A9C3780AD654 /* FMResultSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		484C2B10220A4EC4FAC93EB9998FC529 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 8D5312F8931E84B85943340251A4FCE8 /* FMDB */;
+			targetProxy = 8ACC1434C5E4D8F1962CA4D63F6FF338 /* PBXContainerItemProxy */;
+		};
+		64ACED29C7C18E84AD12B338D6ACC6E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 8D5312F8931E84B85943340251A4FCE8 /* FMDB */;
+			targetProxy = F7FC64673F64CD0109EFC93123D82536 /* PBXContainerItemProxy */;
+		};
+		6E3978CA2A49DE0B81EB844276252CDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DaoHelper-DaoHelper";
+			target = 5C5572934652EE54B8ED7E9669844C7C /* DaoHelper-DaoHelper */;
+			targetProxy = 48C968B12176DCEE68DA7A4622E7325B /* PBXContainerItemProxy */;
+		};
+		82D3474624146132AD71601090BD5357 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DaoHelper-DaoHelper";
+			target = 5C5572934652EE54B8ED7E9669844C7C /* DaoHelper-DaoHelper */;
+			targetProxy = 8C383ECCCE125A88199F4F2CF9E3B0E2 /* PBXContainerItemProxy */;
+		};
+		863D6DD99BD89A38B48E3E2C024B03AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 8D5312F8931E84B85943340251A4FCE8 /* FMDB */;
+			targetProxy = 4D1C3A50E5E3C6B1E9FD28A2BDAF59E9 /* PBXContainerItemProxy */;
+		};
+		A22E5B06B6514FE62B543E274A77C5FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LKDBHelper;
+			target = 3D22CBC6E5BC5E425D81F013BCD19F37 /* LKDBHelper */;
+			targetProxy = D9A5A9CE328C88F84DFC7234F4C76752 /* PBXContainerItemProxy */;
+		};
+		DC188EADAD401CC7CE11C1F50E60BF0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LKDBHelper;
+			target = 3D22CBC6E5BC5E425D81F013BCD19F37 /* LKDBHelper */;
+			targetProxy = C4EB25F352D944686AC4C47673B0DDAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		017FC23DFF8C3E1F4A9D9F25D45C2CB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 106E2139B6290DE214F0B3BE20ABC6E5 /* Pods-DaoHelper_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DaoHelper_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DaoHelper_Tests/Pods-DaoHelper_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DaoHelper_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		20F94019B5BA72FDC38EEBAD7C18F0DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBACFEC4948203A3C7D7FFFB7B56D5F5 /* LKDBHelper-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 2.1.4;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 2;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LKDBHelper/LKDBHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LKDBHelper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LKDBHelper/LKDBHelper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LKDBHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		77651F06E79893A613E20EC815B67A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEAD4EEB7CD707C3BD51ACFBAB50FAB7 /* Pods-DaoHelper_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DaoHelper_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DaoHelper_Example/Pods-DaoHelper_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DaoHelper_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9DAEB278B3AC3D9469F4AC28DE6C94B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F524D40DEBA8F277F8EC8713BE9919C2 /* FMDB-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 2.5.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 2;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FMDB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A973B4EE0CAD701F0D4060C3BF1FED77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F524D40DEBA8F277F8EC8713BE9919C2 /* FMDB-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 2.5.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 2;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FMDB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A981B192C01593862F4EDCAB2BFB0A0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DaoHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B2C5AEA158D39B589FFBCF2D79A89F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4053185BEDA584F214D7E555BC2A35A7 /* Pods-DaoHelper_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DaoHelper_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DaoHelper_Tests/Pods-DaoHelper_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DaoHelper_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E7419776D31198BBE8D3E99082F657DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7049F5AB15051C4F1F108B9F6D21E1BF /* Pods-DaoHelper_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DaoHelper_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DaoHelper_Example/Pods-DaoHelper_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DaoHelper_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E974A178D15937089A6EF437A7602319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DaoHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		ECAF1C40957508565D9CAB104339E504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBACFEC4948203A3C7D7FFFB7B56D5F5 /* LKDBHelper-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 2.1.4;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 2;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LKDBHelper/LKDBHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LKDBHelper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LKDBHelper/LKDBHelper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LKDBHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0634563818B9297A7A1B8C0FA8A872F7 /* Build configuration list for PBXNativeTarget "LKDBHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAF1C40957508565D9CAB104339E504 /* Debug */,
+				20F94019B5BA72FDC38EEBAD7C18F0DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0761E3F16F20DC9CEDB27B179D1E4BF9 /* Build configuration list for PBXNativeTarget "Pods-DaoHelper_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7419776D31198BBE8D3E99082F657DF /* Debug */,
+				77651F06E79893A613E20EC815B67A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61D03FF4655D0B6AA594C026BB56B845 /* Build configuration list for PBXNativeTarget "FMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DAEB278B3AC3D9469F4AC28DE6C94B8 /* Debug */,
+				A973B4EE0CAD701F0D4060C3BF1FED77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF06D99DDAC6433C5E663DCD246626F8 /* Build configuration list for PBXNativeTarget "DaoHelper-DaoHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E974A178D15937089A6EF437A7602319 /* Debug */,
+				A981B192C01593862F4EDCAB2BFB0A0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD0695342BC324325EFFCEB248F29EBC /* Build configuration list for PBXNativeTarget "Pods-DaoHelper_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				017FC23DFF8C3E1F4A9D9F25D45C2CB8 /* Debug */,
+				B2C5AEA158D39B589FFBCF2D79A89F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

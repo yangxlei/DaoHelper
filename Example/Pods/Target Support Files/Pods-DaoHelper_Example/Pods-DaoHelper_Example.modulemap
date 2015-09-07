@@ -1,0 +1,6 @@
+framework module Pods_DaoHelper_Example {
+  umbrella header "Pods-DaoHelper_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

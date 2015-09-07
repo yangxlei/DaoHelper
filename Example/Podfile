@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'DaoHelper_Example', :exclusive => true do
+  pod "DaoHelper", :path => "../"
+end
+
+target 'DaoHelper_Tests', :exclusive => true do
+  pod "DaoHelper", :path => "../"
+
+end
